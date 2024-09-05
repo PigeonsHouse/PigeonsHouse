@@ -8,7 +8,7 @@ const Header = () => {
   const isUpSmall = useMediaQuery(() => theme.breakpoints.up("sm"));
 
   return (
-    <Box minHeight={60} color="white" sx={{backgroundColor: "#282828"}}>
+    <Box minHeight={60} color="white" sx={{backgroundColor: "#282828"}} position="sticky" top={0}>
       <Box maxWidth="lg" m="auto" display="flex" alignItems="center" height="60px" px={2} justifyContent="space-between">
         <Box display="flex" alignItems={isUpSmall ? "flex-end" : "center"} gap={1}>
           <Box component="img" src="/avatar.png" height="40px" borderRadius={2} />
