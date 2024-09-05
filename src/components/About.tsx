@@ -1,9 +1,14 @@
-import { Box, Typography, useMediaQuery, useTheme } from "@mui/material";
+import React from "react";
+import Box from "@mui/material/Box";
+import Typography from "@mui/material/Typography";
 
-const About = () => {
-  const theme = useTheme();
-  const isUpSmall = useMediaQuery(() => theme.breakpoints.up("sm"));
+type AboutProps = {
+  isUpSmall: boolean,
+}
 
+const About: React.FC<AboutProps> = ({
+  isUpSmall,
+}) => {
   return (
     <Box maxWidth="lg" mx="auto" my={2} px="8px">
       <Box component={isUpSmall ? "h1" : "h2"} textAlign="center" m={0} borderBottom="2px solid #222" mb={1}>

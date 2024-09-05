@@ -1,12 +1,19 @@
-import { Box, Link, Typography, useMediaQuery, useTheme } from "@mui/material";
+import React from "react";
+import Box from "@mui/material/Box";
+import Link from "@mui/material/Link";
+import Typography from "@mui/material/Typography";
 import GitHubIcon from '@mui/icons-material/GitHub';
-import { X } from "@mui/icons-material";
+import X from "@mui/icons-material/X";
 
-const Header = () => {
-  const theme = useTheme();
-  const isUpMedium = useMediaQuery(() => theme.breakpoints.up("md"));
-  const isUpSmall = useMediaQuery(() => theme.breakpoints.up("sm"));
+type HeaderProps = {
+  isUpSmall: boolean,
+  isUpMedium: boolean,
+}
 
+const Header: React.FC<HeaderProps> = ({
+  isUpMedium,
+  isUpSmall,
+}) => {
   return (
     <Box minHeight={60} color="white" sx={{backgroundColor: "#282828"}} position="sticky" top={0}>
       <Box maxWidth="lg" m="auto" display="flex" alignItems="center" height="60px" px={2} justifyContent="space-between">
