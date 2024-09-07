@@ -30,9 +30,6 @@ const WideWorkCard: React.FC<CardProps & {isUpMedium: boolean}> = ({
   data,
   isUpMedium,
 }) => {
-  const iconGap = useMemo(() => {
-    return 2;
-  }, [isUpMedium]);
   const iconSize = useMemo(() => {
     const size = isUpMedium ? 40 : 36;
     return {
@@ -51,7 +48,7 @@ const WideWorkCard: React.FC<CardProps & {isUpMedium: boolean}> = ({
         <Box mb={1}>{data.description}</Box>
         <Box fontSize={14}><b>GENRE</b>: {data.genre}</Box>
         <Box fontSize={14}><b>制作時期</b>: {data.created_at}</Box>
-        <Box display="flex" gap={iconGap} justifyContent="flex-end">
+        <Box display="flex" gap={2} justifyContent="flex-end">
           <Tooltip title={data.url && "サイトを開く"}>
             <Link href={data.url || undefined}>
               <OpenInBrowser sx={{...iconSize, color: (data.url ? "black" : "#ccc")}} />
