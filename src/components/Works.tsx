@@ -14,7 +14,7 @@ const Works: React.FC<WorksProps> = ({
 }) => {
   return (
     <Box maxWidth="lg" mx="auto" my={2} px="8px">
-      <Box component={isUpSmall ? "h1" : "h2"} textAlign="center" m={0} borderBottom="2px solid #222" mb={1}>
+      <Box component={isUpSmall ? "h1" : "h2"} textAlign="center" m={0} borderBottom="2px solid #222" mb={1} fontFamily='"M PLUS Rounded 1c"' fontWeight={800}>
         Works
       </Box>
       <Box>

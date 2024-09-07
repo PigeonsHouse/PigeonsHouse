@@ -47,10 +47,10 @@ const WideWorkCard: React.FC<CardProps & {isUpMedium: boolean}> = ({
         <Box component="img" src={data.thumbnail} height="100%" width="100%" sx={{objectFit: "contain", verticalAlign: "top"}} />
       </Box>
       <Box flexGrow={1}>
-        <Typography variant="h5" fontWeight="bold">{data.name}</Typography>
+        <Typography variant="h5" fontWeight={800} fontFamily='"M PLUS Rounded 1c"'>{data.name}</Typography>
         <Box mb={1}>{data.description}</Box>
-        <Typography variant="subtitle2"><b>GENRE</b>: {data.genre}</Typography>
-        <Typography variant="subtitle2"><b>制作時期</b>: {data.created_at}</Typography>
+        <Box fontSize={14}><b>GENRE</b>: {data.genre}</Box>
+        <Box fontSize={14}><b>制作時期</b>: {data.created_at}</Box>
         <Box display="flex" gap={iconGap} justifyContent="flex-end">
           <Tooltip title={data.url && "サイトを開く"}>
             <Link href={data.url || undefined}>

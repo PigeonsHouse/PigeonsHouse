@@ -21,10 +21,12 @@ const Header: React.FC<HeaderProps> = ({
         <Box display="flex" alignItems={isUpSmall ? "flex-end" : "center"} gap={1}>
           <Box component="img" src="/avatar.png" height="40px" borderRadius={2} />
           {isUpSmall && (
-              <Typography fontFamily='"Hina Mincho"' variant="h4" fontSize="2rem">PigeonsHouse's Portfolio</Typography>
+              <Typography fontFamily='"M PLUS Rounded 1c"' variant="h4" fontSize="2rem" fontWeight={800}>
+                {isUpMedium ? "PigeonsHouse's Portfolio" : "PigeonsHouse"}
+              </Typography>
           )}
           {isUpMedium && (
-            <Typography fontFamily='"Hina Mincho"'>鳩屋敷のお屋敷</Typography>
+            <Typography fontFamily='"M PLUS Rounded 1c"'>鳩屋敷のお屋敷</Typography>
           )}
         </Box>
         <Box display="flex" alignItems="center" height="50%" gap={1.5}>
