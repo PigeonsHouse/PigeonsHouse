@@ -1,6 +1,7 @@
 import { useMediaQuery, useTheme } from "@mui/material";
 import About from "./components/About"
 import Header from "./components/Header"
+import Works from "./components/Works";
 
 function App() {
   const theme = useTheme();
@@ -11,7 +12,7 @@ function App() {
     <>
       <Header isUpMedium={isUpMedium} isUpSmall={isUpSmall} />
       <About isUpSmall={isUpSmall} />
-      <p>Works(作ってきたもの)</p>
+      <Works isUpMedium={isUpMedium} isUpSmall={isUpSmall} />
       <p>Favorites(好きな技術)</p>
       <p>Contacts(連絡先)</p>
     </>
