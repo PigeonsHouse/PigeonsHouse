@@ -21,9 +21,38 @@ type CardProps = {
   data: WorkData,
 }
 
-const SmallWorkCard: React.FC<CardProps> = () => {
+const SmallWorkCard: React.FC<CardProps> = ({
+  data,
+}) => {
   return (
-    <>ちいさい</>
+    <Box borderRadius={1} border="1px solid #bbb" sx={{backgroundColor: 'white'}} mb={2} p="8px 16px" display="flex" flexDirection="column" gap={1} alignItems="center">
+      <Box width="100%" maxWidth='360px' sx={{ backgroundColor: "#ccc" }}>
+        <Box component="img" src={data.thumbnail} height="100%" width="100%" sx={{objectFit: "contain", verticalAlign: "top", aspectRatio: "16/9"}} />
+      </Box>
+      <Box>
+        <Typography variant="h5" fontWeight={800} fontFamily='"M PLUS Rounded 1c"' textAlign="center">{data.name}</Typography>
+        <Box mb={1}>{data.description}</Box>
+        <Box fontSize={14}><b>GENRE</b>: {data.genre}</Box>
+        <Box fontSize={14}><b>制作時期</b>: {data.created_at}</Box>
+        <Box display="flex" gap={2} justifyContent="space-evenly" mt={1}>
+          <Tooltip title={data.url && "サイトを開く"}>
+            <Link href={data.url || undefined}>
+              <OpenInBrowser sx={{width: 40, height: 40, color: (data.url ? "black" : "#ccc")}} />
+            </Link>
+          </Tooltip>
+          <Tooltip title={data.source_url && "コードを見る"}>
+            <Link href={data.source_url || undefined}>
+              <GitHub sx={{width: 40, height: 40, color: (data.source_url ? "black" : "#ccc")}} />
+            </Link>
+          </Tooltip>
+          <Tooltip title={data.download_url && "アプリを手に入れる"}>
+            <Link href={data.download_url || undefined}>
+              <GetApp sx={{width: 40, height: 40, color: (data.download_url ? "black" : "#ccc")}} />
+            </Link>
+          </Tooltip>
+        </Box>
+      </Box>
+    </Box>
   )
 }
 const WideWorkCard: React.FC<CardProps & {isUpMedium: boolean}> = ({
