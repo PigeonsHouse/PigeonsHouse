@@ -4,6 +4,7 @@ import Link from "@mui/material/Link";
 import Typography from "@mui/material/Typography";
 import GitHubIcon from '@mui/icons-material/GitHub';
 import X from "@mui/icons-material/X";
+import { Tooltip } from "@mui/material";
 
 type HeaderProps = {
   isUpSmall: boolean,
@@ -27,21 +28,31 @@ const Header: React.FC<HeaderProps> = ({
           )}
         </Box>
         <Box display="flex" alignItems="center" height="50%" gap={1.5}>
-          <Link href="https://www.nicovideo.jp/user/125551772" height="95%" target="_blank" rel="noopener">
-            <Box component="img" src="/nc296562.png" height="100%" />
-          </Link>
-          <Link href="https://x.com/PigeonsHouse" height="100%" sx={{color: 'white'}} target="_blank" rel="noopener">
-            <X sx={{fontSize: 30}} />
-          </Link>
-          <Link href="https://qiita.com/PigeonsHouse" height="95%" target="_blank" rel="noopener">
-            <Box component="img" src="/qiita-white-icon.png" height="100%" />
-          </Link>
-          <Link href="https://github.com/PigeonsHouse" height="100%" sx={{color: 'white'}} target="_blank" rel="noopener">
-            <GitHubIcon sx={{fontSize: 30}} />
-          </Link>
-          <Link href="https://voskey.icalo.net/@pikora_niconico" height="100%" target="_blank" rel="noopener">
-            <Box component="img" src="https://voskey-s.icalo.net/res/voskey_icon.webp" height="100%" />
-          </Link>
+          <Tooltip title="ニコニコ動画">
+            <Link href="https://www.nicovideo.jp/user/125551772" height="95%" target="_blank" rel="noopener">
+              <Box component="img" src="/nc296562.png" height="100%" />
+            </Link>
+          </Tooltip>
+          <Tooltip title="X(Twitter)">
+            <Link href="https://x.com/PigeonsHouse" height="100%" sx={{color: 'white'}} target="_blank" rel="noopener">
+              <X sx={{fontSize: 30}} />
+            </Link>
+          </Tooltip>
+          <Tooltip title="Qiita">
+            <Link href="https://qiita.com/PigeonsHouse" height="95%" target="_blank" rel="noopener">
+              <Box component="img" src="/qiita-white-icon.png" height="100%" />
+            </Link>
+          </Tooltip>
+          <Tooltip title="GitHub">
+            <Link href="https://github.com/PigeonsHouse" height="100%" sx={{color: 'white'}} target="_blank" rel="noopener">
+              <GitHubIcon sx={{fontSize: 30}} />
+            </Link>
+          </Tooltip>
+          <Tooltip title="ぼすきー(ActivityPub)">
+            <Link href="https://voskey.icalo.net/@pikora_niconico" height="100%" target="_blank" rel="noopener">
+              <Box component="img" src="https://voskey-s.icalo.net/res/voskey_icon.webp" height="100%" />
+            </Link>
+          </Tooltip>
         </Box>
       </Box>
     </Box>
