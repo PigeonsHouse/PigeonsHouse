@@ -25,9 +25,9 @@ const SmallWorkCard: React.FC<CardProps> = ({
   data,
 }) => {
   return (
-    <Box borderRadius={1} border="1px solid #bbb" sx={{backgroundColor: 'white'}} mb={2} p="8px 16px" display="flex" flexDirection="column" gap={1} alignItems="center">
+    <Box borderRadius={1} border="1px solid #bbb" sx={{ backgroundColor: 'white' }} mb={2} p="8px 16px" display="flex" flexDirection="column" gap={1} alignItems="center">
       <Box width="100%" maxWidth='360px' sx={{ backgroundColor: "#ccc" }}>
-        <Box component="img" src={data.thumbnail} height="100%" width="100%" sx={{objectFit: "contain", verticalAlign: "top", aspectRatio: "16/9"}} />
+        <Box component="img" src={data.thumbnail} height="100%" width="100%" sx={{ objectFit: "contain", verticalAlign: "top", aspectRatio: "16/9" }} />
       </Box>
       <Box>
         <Typography variant="h5" fontWeight={800} fontFamily='"M PLUS Rounded 1c"' textAlign="center">{data.name}</Typography>
@@ -37,17 +37,17 @@ const SmallWorkCard: React.FC<CardProps> = ({
         <Box display="flex" gap={2} justifyContent="space-evenly" mt={1}>
           <Tooltip title={data.url && "サイトを開く"}>
             <Link href={data.url || undefined}>
-              <OpenInBrowser sx={{width: 40, height: 40, color: (data.url ? "black" : "#ccc")}} />
+              <OpenInBrowser sx={{ width: 40, height: 40, color: (data.url ? "black" : "#ccc") }} />
             </Link>
           </Tooltip>
           <Tooltip title={data.source_url && "コードを見る"}>
             <Link href={data.source_url || undefined}>
-              <GitHub sx={{width: 40, height: 40, color: (data.source_url ? "black" : "#ccc")}} />
+              <GitHub sx={{ width: 40, height: 40, color: (data.source_url ? "black" : "#ccc") }} />
             </Link>
           </Tooltip>
           <Tooltip title={data.download_url && "アプリを手に入れる"}>
             <Link href={data.download_url || undefined}>
-              <GetApp sx={{width: 40, height: 40, color: (data.download_url ? "black" : "#ccc")}} />
+              <GetApp sx={{ width: 40, height: 40, color: (data.download_url ? "black" : "#ccc") }} />
             </Link>
           </Tooltip>
         </Box>
@@ -55,7 +55,7 @@ const SmallWorkCard: React.FC<CardProps> = ({
     </Box>
   )
 }
-const WideWorkCard: React.FC<CardProps & {isUpMedium: boolean}> = ({
+const WideWorkCard: React.FC<CardProps & { isUpMedium: boolean }> = ({
   data,
   isUpMedium,
 }) => {
@@ -68,9 +68,9 @@ const WideWorkCard: React.FC<CardProps & {isUpMedium: boolean}> = ({
   }, [isUpMedium]);
 
   return (
-    <Box borderRadius={1} border="1px solid #bbb" sx={{backgroundColor: 'white'}} mb={2} p="8px 16px" display="flex" gap={1}>
-      <Box flexShrink={0} height="100%" maxHeight={140} width={140/9*16} maxWidth="30%" sx={{ backgroundColor: "#ccc", aspectRatio: "16/9" }}>
-        <Box component="img" src={data.thumbnail} height="100%" width="100%" sx={{objectFit: "contain", verticalAlign: "top"}} />
+    <Box borderRadius={1} border="1px solid #bbb" sx={{ backgroundColor: 'white' }} mb={2} p="8px 16px" display="flex" gap={1}>
+      <Box flexShrink={0} height="100%" maxHeight={140} width={140 / 9 * 16} maxWidth="30%" sx={{ backgroundColor: "#ccc", aspectRatio: "16/9" }}>
+        <Box component="img" src={data.thumbnail} height="100%" width="100%" sx={{ objectFit: "contain", verticalAlign: "top" }} />
       </Box>
       <Box flexGrow={1}>
         <Typography variant="h5" fontWeight={800} fontFamily='"M PLUS Rounded 1c"'>{data.name}</Typography>
@@ -80,17 +80,17 @@ const WideWorkCard: React.FC<CardProps & {isUpMedium: boolean}> = ({
         <Box display="flex" gap={2} justifyContent="flex-end">
           <Tooltip title={data.url && "サイトを開く"}>
             <Link href={data.url || undefined}>
-              <OpenInBrowser sx={{...iconSize, color: (data.url ? "black" : "#ccc")}} />
+              <OpenInBrowser sx={{ ...iconSize, color: (data.url ? "black" : "#ccc") }} />
             </Link>
           </Tooltip>
           <Tooltip title={data.source_url && "コードを見る"}>
             <Link href={data.source_url || undefined}>
-              <GitHub sx={{...iconSize, color: (data.source_url ? "black" : "#ccc")}} />
+              <GitHub sx={{ ...iconSize, color: (data.source_url ? "black" : "#ccc") }} />
             </Link>
           </Tooltip>
           <Tooltip title={data.download_url && "アプリを手に入れる"}>
             <Link href={data.download_url || undefined}>
-              <GetApp sx={{...iconSize, color: (data.download_url ? "black" : "#ccc")}} />
+              <GetApp sx={{ ...iconSize, color: (data.download_url ? "black" : "#ccc") }} />
             </Link>
           </Tooltip>
         </Box>

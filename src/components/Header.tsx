@@ -16,14 +16,14 @@ const Header: React.FC<HeaderProps> = ({
   isUpSmall,
 }) => {
   return (
-    <Box minHeight={60} color="white" sx={{backgroundColor: "#282828"}} position="sticky" top={0}>
+    <Box minHeight={60} color="white" sx={{ backgroundColor: "#282828" }} position="sticky" top={0}>
       <Box maxWidth="lg" m="auto" display="flex" alignItems="center" height="60px" px={2} justifyContent="space-between">
         <Box display="flex" alignItems={isUpSmall ? "flex-end" : "center"} gap={1}>
           <Box component="img" src="/avatar.png" height="40px" borderRadius={2} />
           {isUpSmall && (
-              <Typography fontFamily='"M PLUS Rounded 1c"' variant="h4" fontSize="2rem" fontWeight={800}>
-                {isUpMedium ? "PigeonsHouse's Portfolio" : "PigeonsHouse"}
-              </Typography>
+            <Typography fontFamily='"M PLUS Rounded 1c"' variant="h4" fontSize="2rem" fontWeight={800}>
+              {isUpMedium ? "PigeonsHouse's Portfolio" : "PigeonsHouse"}
+            </Typography>
           )}
           {isUpMedium && (
             <Typography fontFamily='"M PLUS Rounded 1c"'>鳩屋敷のお屋敷</Typography>
@@ -36,8 +36,8 @@ const Header: React.FC<HeaderProps> = ({
             </Link>
           </Tooltip>
           <Tooltip title="X(Twitter)">
-            <Link href="https://x.com/PigeonsHouse" height="100%" sx={{color: 'white'}} target="_blank" rel="noopener">
-              <X sx={{fontSize: 30}} />
+            <Link href="https://x.com/PigeonsHouse" height="100%" sx={{ color: 'white' }} target="_blank" rel="noopener">
+              <X sx={{ fontSize: 30 }} />
             </Link>
           </Tooltip>
           <Tooltip title="Qiita">
@@ -46,8 +46,8 @@ const Header: React.FC<HeaderProps> = ({
             </Link>
           </Tooltip>
           <Tooltip title="GitHub">
-            <Link href="https://github.com/PigeonsHouse" height="100%" sx={{color: 'white'}} target="_blank" rel="noopener">
-              <GitHubIcon sx={{fontSize: 30}} />
+            <Link href="https://github.com/PigeonsHouse" height="100%" sx={{ color: 'white' }} target="_blank" rel="noopener">
+              <GitHubIcon sx={{ fontSize: 30 }} />
             </Link>
           </Tooltip>
           <Tooltip title="ぼすきー(ActivityPub)">
