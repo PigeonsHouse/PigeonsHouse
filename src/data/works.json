@@ -1,5 +1,25 @@
 [
     {
+        "name": "Video Structure Markup Language (VSML)",
+        "thumbnail": "https://vsml.pigeons.house/artworks/banner-color.png",
+        "genre": "言語",
+        "description": "HTML/CSSのような記述で動画構成を記述することで動画を生成できる言語、またそのコンバータ(変換器)。",
+        "url": "https://vsml.pigeons.house",
+        "download_url": "https://vsml.pigeons.house/how-to-use",
+        "source_url": "https://github.com/vsml-org/the_vsml_converter",
+        "created_at": "2023年4月〜"
+    },
+    {
+        "name": "インプレゾンビバスターズ",
+        "thumbnail": "https://raw.githubusercontent.com/PigeonsHouse/impre-zombie-busters/refs/heads/main/public/icon128.png",
+        "genre": "chrome拡張",
+        "description": "Twitterに多いインプレゾンビをアカウント単位で様々な条件で弾いて非表示にするChrome拡張アプリ。まだ未実装の機能がありβ版のようなものだが、使用可能ではある。",
+        "url": null,
+        "source_url": "https://github.com/PigeonsHouse/impre-zombie-busters",
+        "download_url": "https://github.com/PigeonsHouse/impre-zombie-busters/releases/latest",
+        "created_at": "2024年8月"
+    },
+    {
         "name": "ToyBox",
         "thumbnail": "https://raw.githubusercontent.com/Kyutech-C3/ToyBox-frontend/develop/assets/images/ToyBoxLogo.png",
         "genre": "backend",
@@ -10,6 +30,26 @@
         "created_at": "2021年4月〜2022年10月"
     },
     {
+        "name": "C3ロゴジェネレーター",
+        "thumbnail": "/c3logo.png",
+        "genre": "Webアプリ",
+        "description": "C3のロゴの周りにあるテキストを自分の好きな文字に変えて画像として出力できるWebアプリ。描画はCanvasを使用している。背景色も変更可能。",
+        "url": "https://logo-gen.compositecomputer.club",
+        "download_url": null,
+        "source_url": "https://github.com/Kyutech-C3/LogoGenerator",
+        "created_at": "2023年10月"
+    },
+    {
+        "name": "日めくりカレンダーサイト",
+        "thumbnail": "/himekuri.png",
+        "genre": "Webアプリ",
+        "description": "日めくりカレンダーのアナログ感をWeb上でも楽しめるよう、不可逆的にカレンダーをめくれるアプリ。放置すればカレンダーはその日のままになっていてくれる。",
+        "url": "https://himekuri.pigeons.house",
+        "download_url": null,
+        "source_url": "https://github.com/PigeonsHouse/HIMEKURI",
+        "created_at": "2023年10月"
+    },
+    {
         "name": "PieceLive",
         "thumbnail": "https://topaz.dev/_next/image?url=https%3A%2F%2Fptera-publish.topaz.dev%2Fproject%2F01GMHG70QVDPGQ0JAZTMCK6BJA.png&w=1920&q=75",
         "genre": "インフラ",
@@ -18,6 +58,26 @@
         "download_url": null,
         "source_url": "https://github.com/K-Kizuku/megalo-use-std-mamachari",
         "created_at": "2022年12月"
+    },
+    {
+        "name": "LoveComme",
+        "thumbnail": "/lovecomme.png",
+        "genre": "Webアプリ",
+        "description": "コメント投稿画面で投げた速度と角度を維持して配信画面上にコメントを流す配信アプリ。「コメント」をテーマにしたハッカソンでの作品。",
+        "url": null,
+        "download_url": null,
+        "source_url": "https://github.com/PigeonsHouse/Lovecomme",
+        "created_at": "2023年10月"
+    },
+    {
+        "name": "NessyChord",
+        "thumbnail": "/nessy.png",
+        "genre": "Webアプリ",
+        "description": "コード進行を軸にDTMができるWeb上のDAW。C3クリエイタソン ネッシーカップでの作品。",
+        "url": "https://nessy-chord.pigeons.house",
+        "download_url": null,
+        "source_url": "https://github.com/PigeonsHouse/NessyChord",
+        "created_at": "2024年3月"
     },
     {
         "name": "SignGress",
@@ -35,7 +95,7 @@
         "genre": "デスクトップアプリ",
         "description": "ニコニコのコメントみたいにマストドンのトゥートが流れるLTサポートツール。WindowsとLinuxに対応。",
         "url": "https://qiita.com/PigeonsHouse/items/2ec02d570e0c8be69ae5",
-        "download_url": "https://github.com/PigeonsHouse/NicoCommeDon/releases/",
+        "download_url": "https://github.com/PigeonsHouse/NicoCommeDon/releases",
         "source_url": "https://github.com/PigeonsHouse/NicoCommeDon",
         "created_at": "2021年1月〜8月"
     },
@@ -51,7 +111,7 @@
     {
         "name": "OnakaSNS",
         "thumbnail": "https://topaz.dev/_next/image?url=https%3A%2F%2Fptera-publish.topaz.dev%2Fproject%2F01G86RXXJ6AM3CZAVPA3DHFFED.png&w=1920&q=75",
-        "genre": "Web",
+        "genre": "Webアプリ",
         "description": "先輩の背中ハッカソン vol.2の作品。バックエンド、インフラ、フロントのCSS部分を担当。シンプルなSNSとなっている。詳細はTopazのページから。",
         "url": "https://topaz.dev/projects/6b6081da16f2c2be43d3",
         "source_url": "https://github.com/PigeonsHouse/OnakaAPI",
@@ -165,7 +225,7 @@
     {
         "name": "RSA暗号特設サイト",
         "thumbnail": "https://pbs.twimg.com/media/E7YqUEiVkAAqbqE.png",
-        "genre": "Webサイト",
+        "genre": "Webアプリ",
         "description": "某YoutuberのRSA暗号の解説動画に興味を持ち作成。解説と同じ手順で暗号化・復号ができるサイト。",
         "url": "https://rsa-qk.pigeons.house",
         "download_url": null,
