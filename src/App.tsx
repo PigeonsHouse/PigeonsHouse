@@ -1,8 +1,8 @@
 import { useMediaQuery, useTheme } from "@mui/material";
-import About from "./components/About"
+import About from "./components/About";
 import Contacts from "./components/Contacts";
 import Favorites from "./components/Favorites";
-import Header from "./components/Header"
+import Header from "./components/Header";
 import Works from "./components/Works";
 
 function App() {
@@ -18,7 +18,7 @@ function App() {
       <Favorites />
       <Contacts />
     </>
-  )
+  );
 }
 
-export default App
+export default App;

@@ -1,7 +1,5 @@
 const Contacts = () => {
-  return (
-    <></>
-  )
+  return <></>;
 };
 
 export default Contacts;

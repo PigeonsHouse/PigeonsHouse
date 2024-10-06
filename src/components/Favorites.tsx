@@ -1,7 +1,5 @@
 const Favorites = () => {
-  return (
-    <></>
-  )
+  return <></>;
 };
 
 export default Favorites;
