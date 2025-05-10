@@ -10,16 +10,6 @@
         "created_at": "2023年4月〜"
     },
     {
-        "name": "インプレゾンビバスターズ",
-        "thumbnail": "https://raw.githubusercontent.com/PigeonsHouse/impre-zombie-busters/refs/heads/main/public/icon128.png",
-        "genre": "chrome拡張",
-        "description": "Twitterに多いインプレゾンビをアカウント単位で様々な条件で弾いて非表示にするChrome拡張アプリ。まだ未実装の機能がありβ版のようなものだが、使用可能ではある。",
-        "url": null,
-        "source_url": "https://github.com/PigeonsHouse/impre-zombie-busters",
-        "download_url": "https://github.com/PigeonsHouse/impre-zombie-busters/releases/latest",
-        "created_at": "2024年8月"
-    },
-    {
         "name": "ToyBox",
         "thumbnail": "https://raw.githubusercontent.com/Kyutech-C3/ToyBox-frontend/develop/assets/images/ToyBoxLogo.png",
         "genre": "backend",
@@ -30,6 +20,16 @@
         "created_at": "2021年4月〜2022年10月"
     },
     {
+        "name": "鳩屋敷のWebピアノ",
+        "thumbnail": "/web-piano.png",
+        "genre": "Webアプリ",
+        "description": "自分用に機能盛り盛りにしたWeb上で音を出して弾けるピアノ。",
+        "url": "https://pigeonshouse.github.io/midi-music-classroom",
+        "download_url": null,
+        "source_url": "https://github.com/PigeonsHouse/midi-music-classroom",
+        "created_at": "2025年5月"
+    },
+    {
         "name": "C3ロゴジェネレーター",
         "thumbnail": "/c3logo.png",
         "genre": "Webアプリ",
@@ -38,6 +38,16 @@
         "download_url": null,
         "source_url": "https://github.com/Kyutech-C3/LogoGenerator",
         "created_at": "2023年10月"
+    },
+    {
+        "name": "インプレゾンビバスターズ",
+        "thumbnail": "https://raw.githubusercontent.com/PigeonsHouse/impre-zombie-busters/refs/heads/main/public/icon128.png",
+        "genre": "chrome拡張",
+        "description": "Twitterに多いインプレゾンビをアカウント単位で様々な条件で弾いて非表示にするChrome拡張アプリ。まだ未実装の機能がありβ版のようなものだが、使用可能ではある。",
+        "url": null,
+        "source_url": "https://github.com/PigeonsHouse/impre-zombie-busters",
+        "download_url": "https://github.com/PigeonsHouse/impre-zombie-busters/releases/latest",
+        "created_at": "2024年8月"
     },
     {
         "name": "日めくりカレンダーサイト",
