@@ -113,10 +113,26 @@ const Header: React.FC<HeaderProps> = ({ isUpMedium, isUpSmall }) => {
               />
             </Link>
           </Tooltip>
+          <Tooltip title="SoundCloud">
+            <Link
+              href="https://soundcloud.com/bmitn5hfdagh"
+              height="100%"
+              target="_blank"
+              rel="noopener"
+            >
+              <Box
+                component="img"
+                src="/soundcloud.svg"
+                height="100%"
+                style={{ color: "white" }}
+              />
+            </Link>
+          </Tooltip>
         </Box>
       </Box>
     </Box>
   );
 };
+
 
 export default Header;
