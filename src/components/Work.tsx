@@ -50,7 +50,7 @@ const SmallWorkCard: React.FC<CardProps> = ({ data }) => {
       <Box>
         <Typography
           variant="h5"
-          fontWeight={800}
+          fontWeight={700}
           fontFamily='"M PLUS Rounded 1c"'
           textAlign="center"
         >
@@ -143,7 +143,7 @@ const WideWorkCard: React.FC<CardProps & { isUpMedium: boolean }> = ({
       <Box flexGrow={1}>
         <Typography
           variant="h5"
-          fontWeight={800}
+          fontWeight={700}
           fontFamily='"M PLUS Rounded 1c"'
         >
           {data.name}

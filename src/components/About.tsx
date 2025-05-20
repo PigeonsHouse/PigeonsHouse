@@ -16,7 +16,7 @@ const About: React.FC<AboutProps> = ({ isUpSmall }) => {
         borderBottom="2px solid #222"
         mb={1}
         fontFamily='"M PLUS Rounded 1c"'
-        fontWeight={800}
+        fontWeight={700}
       >
         About
       </Box>
@@ -33,7 +33,7 @@ const About: React.FC<AboutProps> = ({ isUpSmall }) => {
             variant="h4"
             fontFamily='"M PLUS Rounded 1c"'
             mb={1}
-            fontWeight={600}
+            fontWeight={500}
           >
             鳩屋敷
           </Typography>

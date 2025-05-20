@@ -45,7 +45,7 @@ const Header: React.FC<HeaderProps> = ({ isUpMedium, isUpSmall }) => {
               fontFamily='"M PLUS Rounded 1c"'
               variant="h4"
               fontSize="2rem"
-              fontWeight={800}
+              fontWeight={700}
             >
               {isUpMedium ? "PigeonsHouse's Portfolio" : "PigeonsHouse"}
             </Typography>

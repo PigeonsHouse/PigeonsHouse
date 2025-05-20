@@ -18,7 +18,7 @@ const Works: React.FC<WorksProps> = ({ isUpSmall, isUpMedium }) => {
         borderBottom="2px solid #222"
         mb={1}
         fontFamily='"M PLUS Rounded 1c"'
-        fontWeight={800}
+        fontWeight={700}
       >
         Works
       </Box>
