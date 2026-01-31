@@ -1,10 +1,11 @@
 import styled from "@emotion/styled";
+import { Color } from "../../definitions";
 
 export const StickyContainer = styled.div`
   position: sticky;
   top: 0;
-  color: #fff;
-  background-color: #282828;
+  color: ${Color.White};
+  background-color: ${Color.Gray};
 `;
 
 export const Container = styled.div`

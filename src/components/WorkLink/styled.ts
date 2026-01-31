@@ -1,12 +1,12 @@
 import { css } from "@emotion/css";
-import { isMiddle, ViewportSize } from "../../definitions";
+import { Color, isMiddle, ViewportSize } from "../../definitions";
 
 export const ActiveIconStyle = css`
-  color: black;
+  color: ${Color.Black};
 `;
 
 export const InactiveIconStyle = css`
-  color: #ccc;
+  color: ${Color.LightGray};
 `;
 
 export const IconStyle = (vpSize: ViewportSize) => css`

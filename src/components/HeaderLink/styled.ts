@@ -1,8 +1,9 @@
 import styled from "@emotion/styled";
+import { Color } from "../../definitions";
 
 export const Link = styled.a`
   height: 100%;
-  color: #fff;
+  color: ${Color.White};
   display: block;
   & > svg {
     font-size: 32px;

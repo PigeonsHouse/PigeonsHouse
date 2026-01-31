@@ -1,10 +1,11 @@
 import { css } from "@emotion/css";
 import styled from "@emotion/styled";
+import { Color } from "../../definitions";
 
 export const Container = styled.div<{ isSmall: boolean }>`
   border-radius: 8px;
-  box-shadow: 4px 4px 8px #bbb;
-  background-color: white;
+  box-shadow: 4px 4px 8px ${Color.LightGray};
+  background-color: ${Color.White};
   padding: 8px 16px;
   display: flex;
   gap: 8px;
@@ -14,7 +15,7 @@ export const Container = styled.div<{ isSmall: boolean }>`
 
 export const ThumbnailContainer = styled.div`
   flex-shrink: 0;
-  background-color: #ccc;
+  background-color: ${Color.LightGray};
   aspect-ratio: 16 / 9;
   width: 100%;
   max-width: 360px;
