@@ -3,7 +3,7 @@ import styled from "@emotion/styled";
 
 export const Container = styled.div<{ isSmall: boolean }>`
   border-radius: 8px;
-  border: 1px solid #bbb;
+  box-shadow: 4px 4px 8px #bbb;
   background-color: white;
   padding: 8px 16px;
   display: flex;
