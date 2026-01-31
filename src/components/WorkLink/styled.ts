@@ -1,5 +1,5 @@
 import { css } from "@emotion/css";
-import { isMiddle, ViewportSize } from "../../types";
+import { isMiddle, ViewportSize } from "../../definitions";
 
 export const ActiveIconStyle = css`
   color: black;

@@ -3,9 +3,8 @@ import { cx } from "@emotion/css";
 import GetApp from "@mui/icons-material/GetApp";
 import GitHub from "@mui/icons-material/GitHub";
 import OpenInBrowser from "@mui/icons-material/OpenInBrowser";
-import Link from "@mui/material/Link";
 import Tooltip from "@mui/material/Tooltip";
-import { ViewportSize } from "../../types";
+import { ViewportSize } from "../../definitions";
 import { ActiveIconStyle, IconStyle, InactiveIconStyle } from "./styled";
 
 type WorkLinkProps = {
@@ -40,9 +39,9 @@ export const WorkLink: React.FC<WorkLinkProps> = ({ variant, url, vpSize }) => {
 
   return hasUrl ? (
     <Tooltip title={tooltipTitle}>
-      <Link href={url}>
+      <a href={url}>
         <Icon className={cx(ActiveIconStyle, IconStyle(vpSize))} />
-      </Link>
+      </a>
     </Tooltip>
   ) : (
     <Icon className={cx(InactiveIconStyle, IconStyle(vpSize))} />

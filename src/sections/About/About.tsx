@@ -1,6 +1,6 @@
 import React from "react";
 import { SectionTitle } from "../../components";
-import { ViewportSize } from "../../types";
+import { ViewportSize } from "../../definitions";
 import {
   Avatar,
   Container,

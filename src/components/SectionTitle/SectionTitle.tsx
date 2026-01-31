@@ -1,4 +1,4 @@
-import { isSmall, ViewportSize } from "../../types";
+import { isSmall, ViewportSize } from "../../definitions";
 import { Container } from "./styled";
 
 type SectionTitleProps = {

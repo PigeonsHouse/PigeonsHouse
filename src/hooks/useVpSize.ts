@@ -1,25 +1,29 @@
-import { useMemo } from "react";
-import { useMediaQuery, useTheme } from "@mui/material";
-import { ViewportSize } from "../types";
+import { useCallback, useEffect, useState } from "react";
+import {
+  LARGER_BREAK_POINT,
+  SMALLER_BREAK_POINT,
+  ViewportSize,
+} from "../definitions";
 
 export const useVpSize = () => {
-  const theme = useTheme();
-  const isLarge = useMediaQuery(theme.breakpoints.up("md"));
-  const isMiddle = useMediaQuery(theme.breakpoints.between("sm", "md"));
-  const isSmall = useMediaQuery(theme.breakpoints.down("sm"));
+  const [vpSize, setVpSize] = useState<ViewportSize>(ViewportSize.Large);
 
-  const vpSize = useMemo(() => {
-    switch (true) {
-      case isLarge:
-        return ViewportSize.Large;
-      case isMiddle:
-        return ViewportSize.Middle;
-      case isSmall:
-        return ViewportSize.Small;
-      default:
-        throw Error();
+  const calcVpSize = useCallback(() => {
+    const viewportWidth = window.innerWidth;
+    if (viewportWidth < SMALLER_BREAK_POINT) {
+      setVpSize(ViewportSize.Small);
+    } else if (viewportWidth < LARGER_BREAK_POINT) {
+      setVpSize(ViewportSize.Middle);
+    } else {
+      setVpSize(ViewportSize.Large);
     }
-  }, [isLarge, isMiddle, isSmall]);
+  }, [setVpSize]);
+
+  useEffect(() => {
+    calcVpSize();
+    window.addEventListener("resize", calcVpSize);
+    return () => window.removeEventListener("resize", calcVpSize);
+  }, [calcVpSize]);
 
   return { vpSize };
 };

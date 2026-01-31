@@ -1,5 +1,5 @@
 import React from "react";
-import { isSmall, ViewportSize } from "../../types";
+import { isSmall, ViewportSize } from "../../definitions";
 import { WorkData } from "../../types";
 import { WorkLink } from "../WorkLink";
 import {

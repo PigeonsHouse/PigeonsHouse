@@ -1,3 +1,7 @@
+export const SMALLER_BREAK_POINT = 600;
+export const LARGER_BREAK_POINT = 900;
+export const MAX_WIDTH = 1200;
+
 export const ViewportSize = {
   Small: "small",
   Middle: "middle",

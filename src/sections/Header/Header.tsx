@@ -1,6 +1,6 @@
 import React from "react";
 import { HeaderLink } from "../../components";
-import { isLarge, isSmall, ViewportSize } from "../../types";
+import { isLarge, isSmall, ViewportSize } from "../../definitions";
 import {
   Avatar,
   Container,

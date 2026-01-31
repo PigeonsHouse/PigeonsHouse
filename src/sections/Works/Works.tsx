@@ -1,6 +1,7 @@
 import React from "react";
 import { SectionTitle, WorkCard } from "../../components";
-import { ViewportSize, WorkData } from "../../types";
+import { ViewportSize } from "../../definitions";
+import { WorkData } from "../../types";
 import { CardsContainer, Container } from "./styled";
 
 type WorksProps = {
