@@ -1,23 +1,20 @@
-import { useMediaQuery, useTheme } from "@mui/material";
-import About from "./components/About";
-import Contacts from "./components/Contacts";
-import Favorites from "./components/Favorites";
-import Header from "./components/Header";
-import Works from "./components/Works";
+import { AppContainer } from "./App.styled";
+import works from "./data/works.json";
+import { useVpSize } from "./hooks";
+import { About, Contacts, Favorites, Header, Works } from "./sections";
+import { WorkData } from "./types";
 
 function App() {
-  const theme = useTheme();
-  const isUpMedium = useMediaQuery(theme.breakpoints.up("md"));
-  const isUpSmall = useMediaQuery(theme.breakpoints.up("sm"));
+  const { vpSize } = useVpSize();
 
   return (
-    <>
-      <Header isUpMedium={isUpMedium} isUpSmall={isUpSmall} />
-      <About isUpSmall={isUpSmall} />
-      <Works isUpMedium={isUpMedium} isUpSmall={isUpSmall} />
+    <AppContainer>
+      <Header vpSize={vpSize} />
+      <About vpSize={vpSize} />
+      <Works works={works as WorkData[]} vpSize={vpSize} />
       <Favorites />
       <Contacts />
-    </>
+    </AppContainer>
   );
 }
 

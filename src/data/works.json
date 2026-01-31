@@ -21,7 +21,7 @@
   },
   {
     "name": "鳩屋敷のWebピアノ",
-    "thumbnail": "/web-piano.png",
+    "thumbnail": "/works/web-piano.png",
     "genre": "Webアプリ",
     "description": "自分用に機能盛り盛りにしたWeb上で音を出して弾けるピアノ。",
     "url": "https://pigeonshouse.github.io/midi-music-classroom",
@@ -31,7 +31,7 @@
   },
   {
     "name": "ぽむの作品集",
-    "thumbnail": "/pomu.png",
+    "thumbnail": "/works/pomu.png",
     "genre": "Webサイト",
     "description": "半ば強制的にふるぽむさんにポートフォリオを作ろうと持ちかけ、半ば勝手に作ったポートフォリオサイト。",
     "url": "https://pomu-portfolio.netlify.app",
@@ -41,7 +41,7 @@
   },
   {
     "name": "C3ロゴジェネレーター",
-    "thumbnail": "/c3logo.png",
+    "thumbnail": "/works/c3logo.png",
     "genre": "Webアプリ",
     "description": "C3のロゴの周りにあるテキストを自分の好きな文字に変えて画像として出力できるWebアプリ。描画はCanvasを使用している。背景色も変更可能。",
     "url": "https://logo-gen.compositecomputer.club",
@@ -61,7 +61,7 @@
   },
   {
     "name": "日めくりカレンダーサイト",
-    "thumbnail": "/himekuri.png",
+    "thumbnail": "/works/himekuri.png",
     "genre": "Webアプリ",
     "description": "日めくりカレンダーのアナログ感をWeb上でも楽しめるよう、不可逆的にカレンダーをめくれるアプリ。放置すればカレンダーはその日のままになっていてくれる。",
     "url": "https://himekuri.pigeons.house",
@@ -81,7 +81,7 @@
   },
   {
     "name": "LoveComme",
-    "thumbnail": "/lovecomme.png",
+    "thumbnail": "/works/lovecomme.png",
     "genre": "Webアプリ",
     "description": "コメント投稿画面で投げた速度と角度を維持して配信画面上にコメントを流す配信アプリ。「コメント」をテーマにしたハッカソンでの作品。",
     "url": null,
@@ -91,7 +91,7 @@
   },
   {
     "name": "NessyChord",
-    "thumbnail": "/nessy.png",
+    "thumbnail": "/works/nessy.png",
     "genre": "Webアプリ",
     "description": "コード進行を軸にDTMができるWeb上のDAW。C3クリエイタソン ネッシーカップでの作品。",
     "url": "https://nessy-chord.pigeons.house",
@@ -224,7 +224,7 @@
   },
   {
     "name": "ロックマン.EXE Bot",
-    "thumbnail": "/rockman.png",
+    "thumbnail": "/works/rockman.png",
     "genre": "MastodonBot",
     "description": "C3部内のSNS、Mastodon内で稼働しているBot。C3部員の生活に役立ったり立たなかったりする機能が搭載している。",
     "url": "https://mastodon.compositecomputer.club/@Rockmanexe",
