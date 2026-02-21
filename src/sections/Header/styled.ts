@@ -26,8 +26,8 @@ export const TitleContainer = styled.div`
 `;
 
 export const Avatar = styled.img`
-  border-radius: 8px;
   height: 40px;
+  color: white;
 `;
 
 export const Title = styled.h1`
