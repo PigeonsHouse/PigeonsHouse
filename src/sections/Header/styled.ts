@@ -6,6 +6,7 @@ export const StickyContainer = styled.div`
   top: 0;
   color: ${Color.White};
   background-color: ${Color.Gray};
+  box-shadow: 4px 4px 8px rgb(from ${Color.Gray} r g b / 0.5);
 `;
 
 export const Container = styled.div`
