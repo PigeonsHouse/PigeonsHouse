@@ -9,12 +9,12 @@ import { ActiveIconStyle, IconStyle, InactiveIconStyle } from "./styled";
 
 type WorkLinkProps = {
   variant: "link" | "github" | "download";
-  url: string | null;
+  url?: string | null;
   vpSize: ViewportSize;
 };
 
 export const WorkLink: React.FC<WorkLinkProps> = ({ variant, url, vpSize }) => {
-  const hasUrl = url !== null;
+  const hasUrl = !!url;
 
   const Icon = useMemo(() => {
     switch (variant) {

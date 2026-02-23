@@ -26,7 +26,7 @@ export const Header: React.FC<HeaderProps> = ({ vpSize }) => {
           <Avatar src="/logo.svg" />
           {!isSmallVp && (
             <Title>
-              {isLargeVp ? "PigeonsHouse's Portfolio" : "PigeonsHouse"}
+              {isLargeVp ? "PigeonsHouse's HomePage" : "PigeonsHouse"}
             </Title>
           )}
           {isLargeVp && <Subtitle>鳩屋敷のお屋敷</Subtitle>}
