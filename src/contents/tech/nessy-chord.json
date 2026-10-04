@@ -1,0 +1,12 @@
+{
+  "title": "NessyChord",
+  "description": "コード進行を軸にDTMができるWeb上のDAW。C3クリエイタソン ネッシーカップでの作品。",
+  "theme": ["tech", "music"],
+  "thumbnailUrl": "/src/assets/images/techs/nessy.png",
+  "genre": "Webアプリ",
+  "createdAt": "2024年3月",
+  "urls": {
+    "appUrl": "https://nessy-chord.pigeons.house",
+    "sourceUrl": "https://github.com/PigeonsHouse/NessyChord"
+  }
+}

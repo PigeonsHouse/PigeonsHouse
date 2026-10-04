@@ -1,0 +1,12 @@
+{
+  "title": "MealGarage",
+  "description": "ハックツハッカソンイクチオカップの作品。バックエンド、インフラを担当。バーコードから冷蔵庫の中身を管理し、レシピを提案するWebアプリ。詳細はTopazのページから。",
+  "theme": ["tech"],
+  "thumbnailUrl": "https://topaz.dev/_next/image?url=https%3A%2F%2Fptera-publish.topaz.dev%2Fproject%2F01G5X9Q0MAQP11TF1VZXTA7PFS.png&w=1920&q=75",
+  "genre": "backend",
+  "createdAt": "2022年6月",
+  "urls": {
+    "appUrl": "https://topaz.dev/projects/384cd2919527a03ecd19",
+    "sourceUrl": "https://github.com/PigeonsHouse/Meal_Garage"
+  }
+}

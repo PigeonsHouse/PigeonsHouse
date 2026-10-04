@@ -1,0 +1,12 @@
+{
+  "title": "水嵩 ﾐｽ゛ｶｻ",
+  "description": "UnityRoom主催の1WeekGameJamでの作品。初めて一人で作ったゲーム。",
+  "theme": ["tech"],
+  "thumbnailUrl": "https://raw.githubusercontent.com/PigeonsHouse/Mizukasa/main/%E3%82%B5%E3%83%A0%E3%83%8D.png",
+  "genre": "ゲーム",
+  "createdAt": "2020年8月",
+  "urls": {
+    "appUrl": "https://unityroom.com/games/vow_game_pigeon-house",
+    "sourceUrl": "https://github.com/PigeonsHouse/Mizukasa"
+  }
+}

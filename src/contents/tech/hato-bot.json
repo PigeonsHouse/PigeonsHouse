@@ -1,0 +1,11 @@
+{
+  "title": "鳩屋敷Bot",
+  "description": "製作者である鳩屋敷の投稿を全て学習させ鳩屋敷っぽい投稿をするBot。深層学習に興味を持ち、GPT2のファインチューニングで試しに作ってみた。",
+  "theme": ["tech"],
+  "thumbnailUrl": "https://s3.ap-northeast-1.wasabisys.com/mastodondb/accounts/avatars/000/005/580/original/aef9c28c66c78da4.png",
+  "genre": "MastodonBot",
+  "createdAt": "2021年6月",
+  "urls": {
+    "appUrl": "https://mastodon.compositecomputer.club/@hatoBot"
+  }
+}

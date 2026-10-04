@@ -1,0 +1,13 @@
+{
+  "title": "NicoCommeDon",
+  "description": "ニコニコのコメントみたいにマストドンのトゥートが流れるLTサポートツール。WindowsとLinuxに対応。",
+  "theme": ["tech", "video"],
+  "thumbnailUrl": "https://raw.githubusercontent.com/PigeonsHouse/NicoCommeDon/main/renderer/public/images/logo.png",
+  "genre": "デスクトップアプリ",
+  "createdAt": "2021年1月〜8月",
+  "urls": {
+    "appUrl": "https://qiita.com/PigeonsHouse/items/2ec02d570e0c8be69ae5",
+    "downloadUrl": "https://github.com/PigeonsHouse/NicoCommeDon/releases",
+    "sourceUrl": "https://github.com/PigeonsHouse/NicoCommeDon"
+  }
+}

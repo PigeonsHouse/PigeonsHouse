@@ -1,0 +1,12 @@
+{
+  "title": "Initial_is_Goo",
+  "description": "ハックツハッカソンプレシオカップで作成した作品。オンラインでカメラから手を検出しじゃんけんできるWebサイト。バックエンドを担当。",
+  "theme": ["tech"],
+  "thumbnailUrl": "https://ptera-publish.topaz.dev/project/01ESZEHY0D7CKX14XC54R5TK3A.png",
+  "genre": "backend",
+  "createdAt": "2020年12月",
+  "urls": {
+    "appUrl": "https://topaz.dev/projects/c00svaa23akg008ogeog",
+    "sourceUrl": "https://github.com/rkun123/Initial_is_Goo"
+  }
+}

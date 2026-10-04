@@ -1,0 +1,12 @@
+{
+  "title": "ぽむの作品集",
+  "description": "半ば強制的にふるぽむさんにポートフォリオを作ろうと持ちかけ、半ば勝手に作ったポートフォリオサイト。",
+  "theme": ["tech"],
+  "thumbnailUrl": "/src/assets/images/techs/pomu.png",
+  "genre": "Webサイト",
+  "createdAt": "2025年12月",
+  "urls": {
+    "appUrl": "https://pomu-portfolio.netlify.app",
+    "sourceUrl": "https://github.com/PigeonsHouse/pomu_portfolio"
+  }
+}

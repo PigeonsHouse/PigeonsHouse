@@ -1,0 +1,11 @@
+{
+  "title": "Magic Adventure",
+  "description": "C3の部員との共同制作。初めてきちんと完成させたゲーム。",
+  "theme": ["tech"],
+  "thumbnailUrl": "https://raw.githubusercontent.com/PigeonsHouse/red-action/master/Assets/Sprites/OP.png",
+  "genre": "ゲーム",
+  "createdAt": "2020年5月〜7月",
+  "urls": {
+    "appUrl": "https://unityroom.com/games/magic_action_game_c3"
+  }
+}

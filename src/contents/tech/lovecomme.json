@@ -1,0 +1,11 @@
+{
+  "title": "LoveComme",
+  "description": "コメント投稿画面で投げた速度と角度を維持して配信画面上にコメントを流す配信アプリ。「コメント」をテーマにしたハッカソンでの作品。",
+  "theme": ["tech"],
+  "thumbnailUrl": "/src/assets/images/techs/lovecomme.png",
+  "genre": "Webアプリ",
+  "createdAt": "2023年10月",
+  "urls": {
+    "sourceUrl": "https://github.com/PigeonsHouse/Lovecomme"
+  }
+}

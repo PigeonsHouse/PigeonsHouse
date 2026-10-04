@@ -1,0 +1,11 @@
+{
+  "title": "EmoMee",
+  "description": "Open Hack U 2021 Online Vol.4で作成したアプリケーションのバックエンドを担当。WebSocketでリアルタイムな通信が可能。https://emom.ee というドメインでサービスをデプロイしていた。",
+  "theme": ["tech"],
+  "thumbnailUrl": "https://raw.githubusercontent.com/Kyutech-C3/EmoMee-frontend/main/assets/logo.png",
+  "genre": "backend",
+  "createdAt": "2022年3月",
+  "urls": {
+    "sourceUrl": "https://github.com/Kyutech-C3/EmoMee-backend"
+  }
+}

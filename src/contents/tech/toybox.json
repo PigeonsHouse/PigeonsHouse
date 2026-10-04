@@ -1,0 +1,12 @@
+{
+  "title": "ToyBox",
+  "description": "C3部員の作品を投稿できるプラットフォーム。ゲーム(zip)、3Dモデル(gltf、fbx)、音声、動画、画像など様々な作品が投稿できる。",
+  "theme": ["tech"],
+  "thumbnailUrl": "https://raw.githubusercontent.com/Kyutech-C3/ToyBox-frontend/develop/assets/images/ToyBoxLogo.png",
+  "genre": "backend",
+  "createdAt": "2021年4月〜2022年10月",
+  "urls": {
+    "appUrl": "https://toybox.compositecomputer.club",
+    "sourceUrl": "https://github.com/Kyutech-C3/ToyBox"
+  }
+}

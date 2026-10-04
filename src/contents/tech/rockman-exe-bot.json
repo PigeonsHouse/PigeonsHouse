@@ -1,0 +1,12 @@
+{
+  "title": "ロックマン.EXE Bot",
+  "description": "C3部内のSNS、Mastodon内で稼働しているBot。C3部員の生活に役立ったり立たなかったりする機能が搭載している。",
+  "theme": ["tech"],
+  "thumbnailUrl": "/src/assets/images/techs/rockman.png",
+  "genre": "MastodonBot",
+  "createdAt": "2020年9月",
+  "urls": {
+    "appUrl": "https://mastodon.compositecomputer.club/@Rockmanexe",
+    "sourceUrl": "https://github.com/PigeonsHouse/rockman_exe_bot"
+  }
+}

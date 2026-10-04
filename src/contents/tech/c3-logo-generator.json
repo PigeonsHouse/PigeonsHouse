@@ -1,0 +1,12 @@
+{
+  "title": "C3ロゴジェネレーター",
+  "description": "C3のロゴの周りにあるテキストを自分の好きな文字に変えて画像として出力できるWebアプリ。描画はCanvasを使用している。背景色も変更可能。",
+  "theme": ["tech"],
+  "thumbnailUrl": "/src/assets/images/techs/c3logo.png",
+  "genre": "Webアプリ",
+  "createdAt": "2023年10月",
+  "urls": {
+    "appUrl": "https://logo-gen.compositecomputer.club",
+    "sourceUrl": "https://github.com/Kyutech-C3/LogoGenerator"
+  }
+}

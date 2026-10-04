@@ -1,0 +1,12 @@
+{
+  "title": "インプレゾンビバスターズ",
+  "description": "Twitterに多いインプレゾンビをアカウント単位で様々な条件で弾いて非表示にするChrome拡張アプリ。まだ未実装の機能がありβ版のようなものだが、使用可能ではある。",
+  "theme": ["tech"],
+  "thumbnailUrl": "https://raw.githubusercontent.com/PigeonsHouse/impre-zombie-busters/refs/heads/main/public/icon128.png",
+  "genre": "chrome拡張",
+  "createdAt": "2024年8月",
+  "urls": {
+    "downloadUrl": "https://github.com/PigeonsHouse/impre-zombie-busters/releases/latest",
+    "sourceUrl": "https://github.com/PigeonsHouse/impre-zombie-busters"
+  }
+}

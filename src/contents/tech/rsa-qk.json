@@ -1,0 +1,12 @@
+{
+  "title": "RSA暗号特設サイト",
+  "description": "某YoutuberのRSA暗号の解説動画に興味を持ち作成。解説と同じ手順で暗号化・復号ができるサイト。",
+  "theme": ["tech"],
+  "thumbnailUrl": "https://pbs.twimg.com/media/E7YqUEiVkAAqbqE.png",
+  "genre": "Webアプリ",
+  "createdAt": "2021年7月",
+  "urls": {
+    "appUrl": "https://rsa-qk.pigeons.house",
+    "sourceUrl": "https://github.com/PigeonsHouse/rsa_qk"
+  }
+}

@@ -1,0 +1,12 @@
+{
+  "title": "Detailer",
+  "description": "ハックツハッカソンステゴカップで作成した作品。投稿した本人やその環境などの情報まで投稿できるSNS。バックエンドを担当。フロントエンドは以下のTopazのページから。",
+  "theme": ["tech"],
+  "thumbnailUrl": "https://ptera-publish.topaz.dev/project/01F8M03YTRR5T4X561TSVRWEN3.png",
+  "genre": "backend",
+  "createdAt": "2021年6月",
+  "urls": {
+    "appUrl": "https://topaz.dev/projects/a31afdce4c6753b62fd0",
+    "sourceUrl": "https://github.com/rkun123/stego-server"
+  }
+}

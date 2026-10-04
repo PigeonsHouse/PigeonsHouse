@@ -1,0 +1,12 @@
+{
+  "title": "TaskBurner",
+  "description": "ハックツハッカソンアンキロカップで作成した作品。タスクが溜まると温度が上がっていき晒されるタスク管理アプリ。バックエンドを担当。フロントエンドは以下のTopazのページから。",
+  "theme": ["tech"],
+  "thumbnailUrl": "https://ptera-publish.topaz.dev/project/01FQ7GFX3DE67RQVPS7BQS1QV6.png",
+  "genre": "backend",
+  "createdAt": "2021年12月",
+  "urls": {
+    "appUrl": "https://topaz.dev/projects/c4438719fb8b9941e8e3",
+    "sourceUrl": "https://github.com/hackz-hackathon-ankylo/task_burner_backend"
+  }
+}

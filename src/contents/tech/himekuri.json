@@ -1,0 +1,12 @@
+{
+  "title": "日めくりカレンダーサイト",
+  "description": "日めくりカレンダーのアナログ感をWeb上でも楽しめるよう、不可逆的にカレンダーをめくれるアプリ。放置すればカレンダーはその日のままになっていてくれる。",
+  "theme": ["tech"],
+  "thumbnailUrl": "/src/assets/images/techs/himekuri.png",
+  "genre": "Webアプリ",
+  "createdAt": "2023年10月",
+  "urls": {
+    "appUrl": "https://himekuri.pigeons.house",
+    "sourceUrl": "https://github.com/PigeonsHouse/HIMEKURI"
+  }
+}

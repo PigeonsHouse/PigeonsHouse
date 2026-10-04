@@ -1,0 +1,13 @@
+{
+  "title": "Video Structure Markup Language (VSML)",
+  "description": "HTML/CSSのような記述で動画構成を記述することで動画を生成できる言語、またそのコンバータ(変換器)。",
+  "theme": ["tech"],
+  "thumbnailUrl": "https://vsml.pigeons.house/artworks/banner-color.png",
+  "genre": "言語",
+  "createdAt": "2023年4月〜",
+  "urls": {
+    "appUrl": "https://vsml.pigeons.house",
+    "downloadUrl": "https://vsml.pigeons.house/how-to-use",
+    "sourceUrl": "https://github.com/vsml-org/the_vsml_converter"
+  }
+}

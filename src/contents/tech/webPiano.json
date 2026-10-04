@@ -1,0 +1,12 @@
+{
+  "title": "鳩屋敷のWebピアノ",
+  "description": "自分用に機能盛り盛りにしたWeb上で音を出して弾けるピアノ。",
+  "theme": ["tech", "music"],
+  "thumbnailUrl": "/src/assets/images/techs/web-piano.png",
+  "genre": "Webアプリ",
+  "createdAt": "2025年5月",
+  "urls": {
+    "appUrl": "https://pigeonshouse.github.io/midi-music-classroom",
+    "sourceUrl": "https://github.com/PigeonsHouse/midi-music-classroom"
+  }
+}

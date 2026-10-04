@@ -1,0 +1,12 @@
+{
+  "title": "PieceLive",
+  "description": "ハックツハッカソンメガロカップの最優秀賞受賞作品。ストリームサーバとインフラを担当。全てRustでできた、ツイキャスやYoutubeLiveのようなサイト。詳細はTopazのページから。",
+  "theme": ["tech"],
+  "thumbnailUrl": "https://topaz.dev/_next/image?url=https%3A%2F%2Fptera-publish.topaz.dev%2Fproject%2F01GMHG70QVDPGQ0JAZTMCK6BJA.png&w=1920&q=75",
+  "genre": "インフラ",
+  "createdAt": "2022年12月",
+  "urls": {
+    "appUrl": "https://topaz.dev/projects/8ec1a7f3e9db6bf2e2f7",
+    "sourceUrl": "https://github.com/K-Kizuku/megalo-use-std-mamachari"
+  }
+}

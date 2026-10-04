@@ -1,0 +1,12 @@
+{
+  "title": "ReaBar",
+  "description": "ハックツハッカソンギガノトカップで作成した作品。読んだ本のバーコードを読み取るとISBNから情報を取得し、ランキングなどを表示してくれるアプリ。バックエンドを担当。",
+  "theme": ["tech"],
+  "thumbnailUrl": "https://ptera-publish.topaz.dev/project/01FY6ZAR8JTQXTA59CBVXFW60D.png",
+  "genre": "backend",
+  "createdAt": "2022年3月",
+  "urls": {
+    "appUrl": "https://topaz.dev/projects/1861f56c53c14c2237f1",
+    "sourceUrl": "https://github.com/Kyutech-C3/ReaBar-backend"
+  }
+}

@@ -1,0 +1,12 @@
+{
+  "title": "SignGress",
+  "description": "ハックツハッカソンプテラカップの特別賞受賞作品。バックエンド、インフラを担当。標識を画像認識し、自陣の点を増やし、点をつなぐことで陣取りを行うWebゲーム。詳細はTopazのページから。",
+  "theme": ["tech"],
+  "thumbnailUrl": "https://topaz.dev/_next/image?url=https%3A%2F%2Fptera-publish.topaz.dev%2Fproject%2F01GDG8FWSEF170HYD7B5FZQ9ST.png&w=1920&q=75",
+  "genre": "backend",
+  "createdAt": "2022年9月",
+  "urls": {
+    "appUrl": "https://topaz.dev/projects/0c49e8b982ac24776a5d",
+    "sourceUrl": "https://github.com/Kyutech-C3/ptera-derapombe2"
+  }
+}

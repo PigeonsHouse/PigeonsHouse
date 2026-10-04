@@ -1,0 +1,12 @@
+{
+  "title": "OnakaSNS",
+  "description": "先輩の背中ハッカソン vol.2の作品。バックエンド、インフラ、フロントのCSS部分を担当。シンプルなSNSとなっている。詳細はTopazのページから。",
+  "theme": ["tech"],
+  "thumbnailUrl": "https://topaz.dev/_next/image?url=https%3A%2F%2Fptera-publish.topaz.dev%2Fproject%2F01G86RXXJ6AM3CZAVPA3DHFFED.png&w=1920&q=75",
+  "genre": "Webアプリ",
+  "createdAt": "2022年7月",
+  "urls": {
+    "appUrl": "https://topaz.dev/projects/6b6081da16f2c2be43d3",
+    "sourceUrl": "https://github.com/PigeonsHouse/OnakaAPI"
+  }
+}

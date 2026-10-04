@@ -1,0 +1,13 @@
+{
+  "title": "進捗ちゃんBot",
+  "description": "Discord上で作業の開始・終了を宣言すると時間を計測して進捗を記録してくれるBot。月始めに先月の総作業量を報告してくれる。",
+  "theme": ["tech"],
+  "thumbnailUrl": "https://cdn.discordapp.com/avatars/821046992460316733/59f462a6e76bf3a3d15e7c476c7aec5b.png",
+  "genre": "DiscordBot",
+  "createdAt": "2021年3、4月",
+  "urls": {
+    "appUrl": "https://qiita.com/PigeonsHouse/items/9d86e35dbb6550d8f853",
+    "downloadUrl": "https://discord.com/api/oauth2/authorize?client_id=821046992460316733&permissions=0&scope=bot",
+    "sourceUrl": "https://github.com/PigeonsHouse/ShinchokuChanBot"
+  }
+}
