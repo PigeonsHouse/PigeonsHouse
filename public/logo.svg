@@ -1,0 +1,17 @@
+<svg id="canvas" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 128 128" width="128" height="128" color="white">
+  <defs>
+    <mask id="eraser-mask">
+      <rect width="128" height="128" fill="white"/>
+      <rect data-id="5" fill="black" stroke="none" stroke-width="1" x="77" y="90" width="20" height="17"/>
+      <ellipse data-id="6" fill="black" stroke="none" stroke-width="1" cx="87" cy="91" rx="10" ry="13"/>
+      <ellipse data-id="16" fill="black" stroke="none" stroke-width="1" cx="32" cy="45" rx="4" ry="4"/>
+    </mask>
+  </defs>
+  <g mask="url(#eraser-mask)">
+    <rect data-id="4" fill="currentColor" stroke="none" stroke-width="2" x="19" y="63" width="90" height="43"/>
+    <polygon data-id="10" fill="currentColor" stroke="none" stroke-width="2" points="87,33 51,65 123,65"/>
+    <ellipse data-id="11" fill="currentColor" stroke="none" stroke-width="2" cx="45" cy="52" rx="26" ry="30"/>
+    <polygon data-id="12" fill="currentColor" stroke="none" stroke-width="2" points="21.5,50 5,65 38,65"/>
+    <ellipse data-id="13" fill="currentColor" stroke="none" stroke-width="2" cx="17" cy="48" rx="5" ry="5"/>
+  </g>
+</svg>
