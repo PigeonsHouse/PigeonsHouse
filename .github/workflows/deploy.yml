@@ -17,11 +17,21 @@ jobs:
     steps:
     - name: Checkout
       uses: actions/checkout@v4
+    - name: Setup mise
+      uses: jdx/mise-action@v2
+    - name: Get pnpm version
+      id: mise
+      run: |
+        echo "node_version=$(mise current node)" >> "$GITHUB_OUTPUT"
+        echo "pnpm_version=$(mise current pnpm)" >> "$GITHUB_OUTPUT"
     - name: Setup Pages
       id: pages
       uses: actions/configure-pages@v5
     - name: Install, build, and upload
       uses: withastro/action@v3
+      with:
+        node-version: ${{ steps.mise.outputs.node_version }}
+        package-manager: pnpm@${{ steps.mise.outputs.pnpm_version }}
       env:
         URL: ${{ steps.pages.outputs.origin }}
 
