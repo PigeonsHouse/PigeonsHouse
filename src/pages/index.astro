@@ -1,21 +1,20 @@
 ---
-const isCustomDomain = Astro.site?.hostname === "pigeons.house";
+import BaseLayout from "../layouts/base.astro";
 ---
 
-<html lang="ja">
-  <head>
-    <meta charset="utf-8" />
-    <link rel="icon" href="/favicon.ico" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <meta property="og:url" content={Astro.url} />
-    {!isCustomDomain && <meta name="robots" content="noindex, nofollow" />}
-    <title>鳩屋敷のお屋敷</title>
-  </head>
-  <body>
+<BaseLayout>
+  <div style="height: 800px; background-color: #ddd; width: 100%">
     <center>
-      <h1>鳩屋敷のお屋敷</h1>
-      <img width="300" height="300" src="/avatar.png" />
-      <p>鋭意リメイク中…！</p>
+      <h1 style="margin: 0">鳩屋敷のお屋敷</h1>
+      <div>ここにサムネイルがくる</div>
     </center>
-  </body>
-</html>
+  </div>
+  <h2>techs</h2>
+  <p>ここに雑多な作品集が新しい順で並ぶ</p>
+  <h2>musics</h2>
+  <p>ここに雑多な作品集が新しい順で並ぶ</p>
+  <h2>videos</h2>
+  <p>ここに雑多な作品集が新しい順で並ぶ</p>
+  <h2>others</h2>
+  <p>ここに雑多な作品集が新しい順で並ぶ</p>
+</BaseLayout>

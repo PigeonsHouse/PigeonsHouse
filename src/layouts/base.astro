@@ -1,0 +1,33 @@
+---
+import OpenGraph from "../components/OpenGraph.astro";
+import { SITE_NAME } from "../constants";
+
+export interface Props {
+  title?: string;
+}
+
+const { title } = Astro.props;
+const wholeTitle = title ? `${title} | ${SITE_NAME}` : SITE_NAME;
+
+const isDevDomain = Astro.site?.hostname !== "pigeons.house";
+---
+
+<style>
+  body {
+    margin: 0;
+  }
+</style>
+
+<html lang="ja">
+  <head>
+    <meta charset="utf-8" />
+    <link rel="icon" href="/favicon.ico" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    {isDevDomain && <meta name="robots" content="noindex, nofollow" />}
+    <OpenGraph title={wholeTitle} />
+    <title>{wholeTitle}</title>
+  </head>
+  <body>
+    <slot />
+  </body>
+</html>
